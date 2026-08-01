@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://totspot.me
+host: https://totspot.me
+note: totspot.me currently serves a Web Hosting Hub placeholder page (SECUREwhub69.webhostinghub.com);
+  no well-known discovery surface is published. Statuses recorded 2026-07-21.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
